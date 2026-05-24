@@ -41,14 +41,14 @@ public class PracticeProblem {
 	    
         ArrayList<Integer> merged = new ArrayList<Integer>();
 
-        for (int i= 0; i< list1.size; i++) {
-            merged.add(list1.get(i))
+        for (int i= 0; i< list1.size(); i++) {
+            merged.add(list1.get(i));
         }
         
-        for (int i= 0; i< list2.size; i++) {
-            merged.add(list2.get(i))
+        for (int i= 0; i< list2.size(); i++) {
+            merged.add(list2.get(i));
         }
         
-        return merged
+        return merged;
 	}
 }
