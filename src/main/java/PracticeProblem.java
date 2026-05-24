@@ -24,8 +24,7 @@ public class PracticeProblem {
 	}
 
 	//2.
-	public static ArrayList<Double> creatArrayList(double[ ] arr) {
-	    
+	public static ArrayList<Double> createArrayList(double[ ] arr) {
 	    
 	    ArrayList<Double> list = new ArrayList<Double>();
 	    
